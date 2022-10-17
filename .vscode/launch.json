@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "cwd": "${workspaceRoot}",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GloriaRomanusApplication",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.GloriaRomanusApplication",
+            "projectName": "h11a-team_hd_7e1fe259"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainMenu",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.classes.MainMenu",
+            "projectName": "h11a-team_hd_9c25c157"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GloriaRomanus",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.classes.GloriaRomanus",
+            "projectName": "h11a-team_hd_9c25c157"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Game",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.classes.Game",
+            "projectName": "h11a-team_hd_9c25c157"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GloriaRomanusApplication",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.GloriaRomanusApplication",
+            "projectName": "h11a-team_hd_9c25c157"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GloriaRomanusLauncher",
+            "request": "launch",
+            "mainClass": "unsw.gloriaromanus.GloriaRomanusLauncher",
+            "vmArgs": "--module-path \"./lib/symlink_javafx:./lib/symlink_arcgis\" --add-modules javafx.controls,javafx.fxml,javafx.media"
+        }
+    ]
+}
